@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script type="text/javascript" src="knockout.js"></script>
+    <script type="text/javascript" src="underscore.js"></script>
+    <script type="text/javascript" src="knockout.underscore.plugin.js"></script>
+    <script>
+        var VM = {
+            arr: ko.observableArray(["foo","bar","bazinga"])
+        };
+
+        ko.applyBindings(VM);
+
+        alert(VM.arr.max(function(n){ return n.length}));
+    </script>
+</head>
+<body>
+</body>
+</html>
+
