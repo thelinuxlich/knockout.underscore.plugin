@@ -1,4 +1,4 @@
-This plugin adds all Underscore array methods to Observable Array.
+This plugin adds all Underscore array methods(and object/array methods) to Observable Array.
 
 Use it like you would with a normal array, the only difference is that you need to skip the first argument(which is the array).
 Example:
@@ -8,7 +8,7 @@ var VM = {
 };
 
 alert(VM.arr.min(function(n){
-   return n.length;   
+   return n.length;
 }));
 
 //prints "ted"
@@ -28,3 +28,4 @@ Also, there are 11 new destructive methods that change the observable array:
 .zip_
 
 See Underscore.js documentation for more details.
+
