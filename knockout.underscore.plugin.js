@@ -1,4 +1,13 @@
-
+/*!
+ * Knockout Underscore plugin
+ * http://github.com/thelinuxlich/knockout.underscore.plugin
+ *
+ * Copyright 2011, Alisson Cavalcante Agiani
+ * Licensed under the MIT license.
+ * http://github.com/thelinuxlich/knockout.underscore.plugin/MIT-LICENSE.txt
+ *
+ * Date: Thu Mar 03 09:00:29 2011 -0300
+*/
 ko.observableArray = function (initialValues) {
     var result = new ko.observable(initialValues);
 
